@@ -54,7 +54,7 @@
                     <group>com.mysite</group>
                     <name>mysite.ui.apps</name>
                     <packageType>application</packageType>
-                    <repositoryStructurePackages>
+                                        <repositoryStructurePackages>
                         <repositoryStructurePackage>
                             <groupId>com.mysite</groupId>
                             <artifactId>mysite.ui.apps.structure</artifactId>
@@ -118,6 +118,7 @@
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
+
 
         <dependency>
             <groupId>com.mysite</groupId>
